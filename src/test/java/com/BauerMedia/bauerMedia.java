@@ -144,6 +144,7 @@ public class bauerMedia {
             } //Failed because there are underscore not hyphens  AND  there are lower case letters
         }
     }
+
     @Test
     public void stationDADIChannelID(){
         extentLogger= report.createTest("stationDADIChannelID verification Test");
