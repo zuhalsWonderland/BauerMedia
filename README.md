@@ -10,6 +10,8 @@ gulnur1984@yahoo.com
 
 **www.linkedin.com/in/gulnur-kircaer**
 
+**https://github.com/GULNUR-K/BauerMedia.git**
+
 - Build Tool: Maven
 
 - Test Framework: TestNG
