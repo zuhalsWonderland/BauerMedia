@@ -135,14 +135,16 @@ public class BauerMedia {
 
             for (char c : charListofString) {
                 System.out.println("c = " + c);
-                //Assert.assertTrue(Character.isUpperCase(c) || Character.isDigit(c) || c=='-' );
-                if(Character.isUpperCase(c) || Character.isDigit(c) || c=='-' ){
-                    extentLogger.pass("stationBrandCode contains required characters");
-
-                }else
-                    extentLogger.fail("stationBrandCode does not contain required characters");
+                Assert.assertTrue(Character.isUpperCase(c) || Character.isDigit(c) || c=='-' );
+                extentLogger.fail("stationBrandCode does not contain required characters");
+//                if(Character.isUpperCase(c) || Character.isDigit(c) || c=='-' ){
+//                    extentLogger.pass("stationBrandCode contains required characters");
+//
+//                }else
+//                    extentLogger.fail("stationBrandCode does not contain required characters");
             } //Failed because there are underscore not hyphens  AND  there are lower case letters
         }
+       // extentLogger.fail("stationBrandCode does not contain required characters");
     }
 
     @Test
