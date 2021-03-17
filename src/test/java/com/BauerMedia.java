@@ -1,4 +1,4 @@
-package com.BauerMedia;
+package com;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class bauerMedia {
+public class BauerMedia {
 
     //this class is used for starting and building reports
     ExtentReports report;
