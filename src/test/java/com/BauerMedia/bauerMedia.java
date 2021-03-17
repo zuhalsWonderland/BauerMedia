@@ -141,7 +141,7 @@ public class bauerMedia {
 
                 }else
                     extentLogger.fail("stationBrandCode does not contain required characters");
-            }
+            } //Failed because there are underscore not hyphens  AND  there are lower case letters
         }
     }
     @Test
