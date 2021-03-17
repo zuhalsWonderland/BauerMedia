@@ -12,7 +12,7 @@ gulnur1984@yahoo.com
 
 - Build Tool: Maven
 
-- Test Framework: TestNG - 
+- Test Framework: TestNG
 
 **Environments:**
 
@@ -24,7 +24,7 @@ Java 8 + JDK
 
 **Test RUN**
 
-Run from class level or test case
+Run from class level or test case level
 
 **Test Reports Locations**
 
